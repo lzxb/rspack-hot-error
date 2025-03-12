@@ -12,7 +12,8 @@ const targets = ["chrome >= 87", "edge >= 88", "firefox >= 78", "safari >= 14"];
 export default defineConfig({
 	context: __dirname,
 	entry: {
-		main: "./src/main.js"
+		main: "./src/main.js",
+		app: "./src/App.vue"
 	},
 	resolve: {
 		extensions: ["...", ".ts", ".vue"]
